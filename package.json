@@ -1,0 +1,24 @@
+{
+  "name": "vuexy",
+  "version": "1.0.0",
+  "description": "An static typed wrapper for vuex.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paraself/vuexy.git"
+  },
+  "keywords": [
+    "vuex",
+    "vue",
+    "typescript"
+  ],
+  "author": "Yves Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paraself/vuexy/issues"
+  },
+  "homepage": "https://github.com/paraself/vuexy#readme"
+}

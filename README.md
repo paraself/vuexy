@@ -1,2 +1,3 @@
 # vuexy
-An object oriented wrapper for vuex.
+An static typed wrapper for vuex.
+It's a WIP, do not use.
