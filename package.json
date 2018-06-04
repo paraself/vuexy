@@ -1,6 +1,6 @@
 {
   "name": "vuexy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An static typed wrapper for vuex.",
   "main": "index.js",
   "scripts": {
