@@ -1,0 +1,11 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "target": "es6",
+    "removeComments": true
+  },
+  "exclude": ["dist", "node_modules", "**/*.spec.ts"],
+  "include": ["src/**/*"]
+}
