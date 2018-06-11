@@ -9,7 +9,9 @@
     "rebuild": "npm run clean && npm run lint && npm run build",
     "test": "echo See directory sources/tests",
     "clean": "rm -rf dist",
-    "lint": "tslint --project tslint.json"
+    "lint": "tslint --project tslint.json",
+    "dev": "tsc -w",
+    "start": "node ./dist/example/app.js"
   },
   "repository": {
     "type": "git",
@@ -34,5 +36,9 @@
   },
   "engines": {
     "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vuex": "^3.0.1"
   }
 }

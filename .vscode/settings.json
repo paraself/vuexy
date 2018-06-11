@@ -1,2 +1,7 @@
 {
+  "prettier.disableLanguages": ["ts"],
+  "tslint.alwaysShowStatus": true,
+  "tslint.autoFixOnSave": false,
+  "tslint.run": "onSave",
+  "tslint.enable": false
 }
