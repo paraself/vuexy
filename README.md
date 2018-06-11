@@ -1,5 +1,6 @@
 # vuexy
 An static typed wrapper for vuex.
+It's still a proof of concept, bugs are where, do not use in production
 
 ## Usage
 
@@ -13,7 +14,7 @@ const store = new Vuex.Store({
   // ... initialize your vuex store
 })
 
-Vuexy.init(store) // 初始化
+Vuexy.init(store)
 ```
 
 Define you vuexy module.
