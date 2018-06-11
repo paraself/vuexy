@@ -4,20 +4,22 @@ class StoreCart extends VuexyModule {
   public count: number = 0
   
   @Mutation
-  ddd(payload?: any):void {
+  add(payload?: any):void {
     console.log(payload)
     this.count++
   }
 
   @Action
-  async eee():Promise<any> {
+  async deferAdd():Promise<any> {
     setTimeout(() => {
-      this.ddd()
+      this.add()
     }, 1000);
   }
 
   @Getter
-  fff() { }
+  getCount() { 
+    return this.count
+  }
 }
 
 export default StoreCart.Instance<StoreCart>(StoreCart)
