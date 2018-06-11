@@ -10,7 +10,7 @@ import Vuex from 'vuex'
 import { Vuexy } from 'vuexy'
 
 const store = new Vuex.Store({
-  // ... 实例化自己的store
+  // ... initialize your vuex store
 })
 
 Vuexy.init(store) // 初始化
