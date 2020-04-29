@@ -1,6 +1,6 @@
 # vuexy
 An static typed wrapper for vuex.
-It's still a proof of concept, bugs are where, do not use in production
+It's still a proof of concept, bugs are everywhere, do not use in production
 
 ## Usage
 
